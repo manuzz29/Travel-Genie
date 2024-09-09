@@ -61,6 +61,7 @@ function Header() {
         <div>
           {user?
               <div className='flex items-center gap-5 mr-3'>
+
                  <Link to={'/create-trip'}>
                  <button className='rounded-full border border-black h-8 w-32 hover:bg-black hover:border-none hover:text-white transition duration-300'> + create trip </button>
                  </Link>
