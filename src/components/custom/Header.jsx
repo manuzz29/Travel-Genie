@@ -61,8 +61,8 @@ function Header() {
         <div>
           {user?
               <div className='flex items-center gap-5 mr-3'>
-                 <a href='create-trip' ><button className='rounded-full border border-black h-8 w-32 hover:bg-black hover:border-none hover:text-white transition duration-300'> + create trip </button></a>
-               <a href='my-trips' ><button className='rounded-full border border-black h-7 w-20 hover:bg-amber-600 hover:border-none hover:text-white transition duration-300'> My Trips </button></a>
+                 <a href='/create-trip' ><button className='rounded-full border border-black h-8 w-32 hover:bg-black hover:border-none hover:text-white transition duration-300'> + create trip </button></a>
+               <a href='/my-trips' ><button className='rounded-full border border-black h-7 w-20 hover:bg-amber-600 hover:border-none hover:text-white transition duration-300'> My Trips </button></a>
                {/* <img src={user?.picture || '/Placeholder 1.jpg'} className='h-[35px] w-[35px] rounded-full'/> */}
                <Popover>
                  <PopoverTrigger>
